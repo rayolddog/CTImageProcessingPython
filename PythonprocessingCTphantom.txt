@@ -1,0 +1,7 @@
+This Python (release 3.6, using Spyder for development) program demonstrates processing of medical images for basic segmentation and diameter measurement.  The diameter measurement is useful for calculation of Size Specific Dose Estimate (SSDE).  SSDE is a valuable parameter for optimizing the tradeoff between radiation dose, and diagnostic quality of the image.
+.
+The algorithm is a very basic approach, but effective and efficient for this application.  The algorithm is detailed in examples of Python programs for image processing.  In this case, the algorithm was applied to a CT image of a CT phantom.  The phantom is of known diameter.  This is useful to confirm the accuracy of the algorithm.
+
+Similar algorithms using Mathematica, MATLAB, and Python are presented.  People have their own preferences for programming languages.  By presenting the simple approach (that should not be patentable because it is presented in textbooks and freely available code examples), some may find these examples useful.  
+
+The programs may be of interest to Medical Physicists.  The programs could be used to demonstrate to facilities providing CT imaging the advantages of using SSDE to optimized radiation exposure from CT exams.
