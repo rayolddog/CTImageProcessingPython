@@ -17,9 +17,7 @@ from skimage.filters import threshold_otsu
 from skimage.measure import label, regionprops
 from scipy import ndimage as ndi
 from skimage import morphology
-from skimage.filters import threshold_otsu
 from skimage.segmentation import clear_border
-from skimage.measure import label, regionprops
 
 ds=pydicom.dcmread('c:\\Users\\Public\\PhtmTest.dcm')
 image=ds.pixel_array
